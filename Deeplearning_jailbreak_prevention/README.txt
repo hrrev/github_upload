@@ -1,6 +1,6 @@
 This was my very first project on Deeplearning after just being introduced to fastai MOOC. The jupyer notebook was run on my laptop and 
 this was before I had GCP credits. The combination of having very small dataset and weak GPU prowess meant that we were forced to use
-Transfer learning and only the final layer of resnet architecture was fine-tuned.
+Transfer learning and only the weights of final FC layer of resnet pretrained on imagenet dataset were changed.
 
 The dataset contained images that we clicked ourselves and then to augment the dataset a script which downloaded Google images was used.
 
